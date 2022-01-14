@@ -1,0 +1,29 @@
+.home-container {
+    background-color: rgba(212, 148, 207, 0.411);
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    position: absolute;
+}
+
+.App-logo {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
