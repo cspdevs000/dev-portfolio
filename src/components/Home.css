@@ -1,16 +1,24 @@
 .home-container {
     background-color: rgba(212, 148, 207, 0.411);
-    height: 95vh;
+    height: 160vh;
     width: 100vw;
     display: flex;
     position: absolute;
 }
 
+.bkgd-container {
+  display: flex;
+  position: relative;
+  height: 140vh;
+  width: 100vw;
+}
+
 .App-logo {
-    height: 90%;
-    width: 80%;
-    display: flex;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
     overflow: hidden;
+    opacity: 0.1;
   }
   
   @media (prefers-reduced-motion: no-preference) {
