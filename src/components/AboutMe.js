@@ -19,6 +19,9 @@ class AboutMe extends Component {
                     <br></br>Living with chronic pain has fueled <br></br>my decision to get out of the physical labor realm and <br></br>into a space where I can thrive and take care of myself at the same time.
                     </p>
                 </div>
+                <div className='back-home-container'>
+                <a className="back-home-link" href="/" >Back </a>
+                </div>
             </div>
         );
     }

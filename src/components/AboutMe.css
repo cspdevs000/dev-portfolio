@@ -16,13 +16,22 @@
 .about-me-content-container {
   position: absolute;
   max-width:65vw;
-  top: 26vh;
+  top: 20vh;
   left: 30vw;
 }
 
 .about-me-content {
   font-size: 26px;
   color:rgba(12, 4, 6, 0.39);
+}
+
+.back-home-link {
+  position: absolute;
+  top: 72vh;
+  left: 65vw;
+  color: #583a2375;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 .App-logo {
