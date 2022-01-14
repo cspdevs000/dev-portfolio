@@ -13,19 +13,21 @@
   width: 100vw;
 }
 
-.about-me-link {
+.about-me-content-container {
   position: absolute;
-  top: 60vh;
-  left: 70vw;
-  color: #583a2375;
-  font-size: 38px;
-  text-decoration: none;
+  max-width:65vw;
+  top: 26vh;
+  left: 30vw;
+}
+
+.about-me-content {
+  font-size: 26px;
+  color:rgba(12, 4, 6, 0.39);
 }
 
 .App-logo {
     height: 100%;
     width: 100%;
-    /* position: absolute; */
     overflow: hidden;
     opacity: 0.1;
   }
@@ -38,9 +40,9 @@
 
   @keyframes App-logo-spin {
     from {
-      transform: rotate(0deg);
+      transform: rotate(360deg);
     }
     to {
-      transform: rotate(360deg);
+      transform: rotate(0deg);
     }
   }

@@ -6,7 +6,8 @@
 }
 
 .navbar-link {
-    padding: 3vh 3vw;
+    padding: 2vh 3vw;
+    margin: 0 auto;
     color: rgba(119, 36, 115, 0.582);
     font-size: larger;
     display: flex;

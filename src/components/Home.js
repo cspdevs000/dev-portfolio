@@ -12,6 +12,9 @@ class Home extends Component {
                 <div className='bkgd-container'>
                 <img src={bkgdSpin} className="App-logo" alt="logo" />
                 </div>
+                <div className='about-me-countainer'>
+                <a className="about-me-link" href="/about" >About Me </a>
+                </div>
             </div>
         );
     }
