@@ -17,6 +17,13 @@
     margin-bottom: 45px;
     display: block;
   }
+
+  .soundcloud-link {
+    color: #583a2375;
+    font-size: 32px;
+    text-decoration: none;
+    padding: 20px 100px;
+  }
   
   .flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
   .flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }

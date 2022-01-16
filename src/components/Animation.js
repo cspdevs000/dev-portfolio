@@ -7,7 +7,7 @@ function Animation(props) {
           <h4 className="animation">     
           <div className="animation-div"> 
               <ul className="flip4"> 
-                  <li>DJ</li>
+                  <li><a className="soundcloud-link" href='https://soundcloud.com/deflect0r' target="_blank">DJ</a></li>
                   <li>Web Developer</li>
                   <li>Software Engineer</li>  
                   <li>A/V Enthusiast</li> 
