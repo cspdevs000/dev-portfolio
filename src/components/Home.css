@@ -59,7 +59,7 @@ input:focus {
   margin-top: 7px;
 }
 
-.App-logo {
+.bkgd-img {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -67,12 +67,12 @@ input:focus {
   }
   
   @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
+    .bkgd-img {
+      animation: bkgd-img-spin infinite 20s linear;
     }
   }
 
-  @keyframes App-logo-spin {
+  @keyframes bkgd-img-spin {
     from {
       transform: rotate(0deg);
     }

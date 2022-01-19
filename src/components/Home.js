@@ -37,7 +37,7 @@ class Home extends Component {
             <div className='home-container'>
                 <Animation />
                 <div className='bkgd-container'>
-                    <img src={bkgdSpin} className="App-logo" alt="logo" />
+                    <img src={bkgdSpin} className="bkgd-img" alt="logo" />
                 </div>
                 <div className='about-me-countainer'>
                     <a className="about-me-link" href="/about" >About Me </a>
