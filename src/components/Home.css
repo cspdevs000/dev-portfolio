@@ -1,6 +1,6 @@
 .home-container {
     background-color: rgba(212, 148, 207, 0.411);
-    height: 160vh;
+    height: 140vh;
     width: 100vw;
     display: flex;
     position: absolute;
@@ -24,9 +24,9 @@
 
 .contact-form-container {
   position: absolute;
-  top: 90vh;
+  top: 80vh;
   left: 20vw;
-  color: #583a2375;
+  color: #352214b0;
 }
 
 .contact-field {
@@ -45,12 +45,18 @@ input:focus {
   outline: rgb(66, 50, 53);
 }
 
+textarea:focus {
+  outline: rgb(66, 50, 53);
+}
+
 .contact-form-textbox {
   width: 25vw;
   height: 10vh;
   margin: 5px;
   background-color: rgba(54, 197, 118, 0.219);
-  text-align: center;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .contact-form-button {

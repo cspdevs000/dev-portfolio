@@ -48,7 +48,7 @@ class Home extends Component {
                     <form className='contact-form' action="https://formsubmit.co/cspdevs000@gmail.com" method="POST">
                         <input className="contact-field" placeholder= "name"onChange={this.handleName.bind(this)} type="text" name="name" required /><br />
                         <input className="contact-field" id="contact-email" placeholder= "email" onChange={this.handleEmail.bind(this)} type="email" name="email" required /><br />
-                        <input className="contact-form-textbox" placeholder="message" onChange={this.handleMessage.bind(this)} type="text" name="message" required /><br />
+                        <textarea className="contact-form-textbox" placeholder="message" onChange={this.handleMessage.bind(this)} type="text" name="message" required /><br />
                         <button className="contact-form-button" type="submit">Send it</button>
                     </form>
                 </div>
