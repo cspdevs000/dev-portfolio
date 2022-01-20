@@ -1,6 +1,6 @@
 .home-container {
     background-color: rgba(212, 148, 207, 0.411);
-    height: 140vh;
+    height: 160vh;
     width: 100vw;
     display: flex;
     position: absolute;
@@ -9,7 +9,7 @@
 .bkgd-container {
   display: flex;
   position: relative;
-  height: 140vh;
+  height: 160vh;
   width: 100vw;
 }
 
