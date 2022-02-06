@@ -34,8 +34,8 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className='bkgd-container'>
-                <img src={bkgdSpin} className="bkgd-img" alt="logo" />
+            <div className='contact-container'>
+                <img src={bkgdSpin} className="bkgd-img-contact" alt="logo" />
                 <div className='contact-form-container'>
                     <h1>Contact Me</h1>
                     <form className='contact-form' action="https://formsubmit.co/cspdevs000@gmail.com" method="POST">

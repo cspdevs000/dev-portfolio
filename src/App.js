@@ -10,18 +10,16 @@ import Contact from './components/Contact.js'
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <Navbar />
-      </div>
+      <Navbar />
       <BrowserRouter>
-      <div className="body">
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/about' element={<AboutMe />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      </div>
+        <div className="body">
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/about' element={<AboutMe />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </div>
   );

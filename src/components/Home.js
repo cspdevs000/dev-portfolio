@@ -10,8 +10,8 @@ class Home extends Component {
         return (
             <div className='home-container'>
                 <Animation />
-                <div className='bkgd-container'>
-                    <img src={bkgdSpin} className="bkgd-img" alt="logo" />
+                <div className='bkgd-container-home'>
+                    <img src={bkgdSpin} className="bkgd-img-home" alt="logo" />
                 </div>
                 <div className='about-me-countainer'>
                     <a className="about-me-link" href="/about" >About Me </a>

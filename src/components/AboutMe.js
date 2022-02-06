@@ -7,9 +7,9 @@ import './AboutMe.css';
 class AboutMe extends Component {
     render() {
         return (
-            <div className='home-container'>
+            <div className='about-me-container'>
                 <Animation />
-                <div className='bkgd-container'>
+                <div className='bkgd-container-about'>
                 <img src={bkgdSpin} className="App-logo" alt="logo" />
                 </div>
                 <div className='about-me-content-container'>

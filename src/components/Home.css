@@ -6,8 +6,8 @@
     position: absolute;
   }
   
-  .bkgd-container {
-  overflow: hidden;
+.bkgd-container-home {
+  overflow-x: hidden;
   display: flex;
   position: relative;
   height: 100vh;
@@ -23,15 +23,14 @@
   text-decoration: none;
 }
 
-.bkgd-img {
+.bkgd-img-home {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     opacity: 0.1;
   }
   
   @media (prefers-reduced-motion: no-preference) {
-    .bkgd-img {
+    .bkgd-img-home {
       animation: bkgd-img-spin infinite 20s linear;
     }
   }

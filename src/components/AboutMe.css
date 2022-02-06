@@ -1,27 +1,28 @@
-.home-container {
+.about-me-container {
     background-color: rgba(212, 148, 207, 0.411);
-    height: 160vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     position: absolute;
 }
 
-.bkgd-container {
+.bkgd-container-about {
   display: flex;
   position: relative;
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .about-me-content-container {
   position: absolute;
   max-width:65vw;
-  top: 30vh;
+  top: 28vh;
   left: 30vw;
 }
 
 .about-me-content {
-  font-size: 26px;
+  font-size: 22px;
   color:rgba(12, 4, 6, 0.39);
 }
 
@@ -36,7 +37,7 @@
 
 .embalming-link {
   color: #583a2375;
-  font-size: 32px;
+  font-size: 27px;
   text-decoration: none;
 }
 
