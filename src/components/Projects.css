@@ -1,17 +1,41 @@
 .projects-container {
     background-color: rgba(212, 148, 207, 0.411);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    position: absolute;
+    position: relative;
 }
 
 .project-card {
-    height: 33vh;
-    width: 40vw;
+    height: 66vh;
+    width: 44vw;
     margin-top: 3vh;
     padding: 3px;
+    display: flex;
+    flex-direction: column;
     position: relative;
+    align-items: center;
+    box-shadow: 0 0.5em 1em -0.1125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.project-img-a {
+    height: 350px;
+    width: 420px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .project-card {
+        height: 65vh;
+        width: 85vw;
+        margin-top: 7vh;
+        padding: 3px;
+        position: relative;
+    }
 }
