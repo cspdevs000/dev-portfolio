@@ -1,12 +1,13 @@
 .home-container {
     background-color: rgba(212, 148, 207, 0.411);
-    height: 160vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     position: absolute;
-}
-
-.bkgd-container {
+  }
+  
+  .bkgd-container {
+  overflow: hidden;
   display: flex;
   position: relative;
   height: 100vh;
@@ -20,49 +21,6 @@
   color: #352214b0;
   font-size: 38px;
   text-decoration: none;
-}
-
-.contact-form-container {
-  position: absolute;
-  top: 80vh;
-  left: 20vw;
-  color: #352214b0;
-}
-
-.contact-field {
-  height: 3vh;
-  width: 15vw;
-  margin: 3px;
-  background-color: rgba(54, 197, 118, 0.226);
-  padding: 0 2vw;
-}
-
-#contact-email {
-  text-align: right;
-}
-
-input:focus {
-  outline: rgb(66, 50, 53);
-}
-
-textarea:focus {
-  outline: rgb(66, 50, 53);
-}
-
-.contact-form-textbox {
-  width: 25vw;
-  height: 10vh;
-  margin: 5px;
-  background-color: rgba(54, 197, 118, 0.219);
-  text-align: left;
-  white-space: normal;
-  word-wrap: break-word;
-}
-
-.contact-form-button {
-  background-color: rgba(54, 197, 118, 0.219);
-  padding: 5px 15px;
-  margin-top: 7px;
 }
 
 .bkgd-img {
