@@ -9,9 +9,10 @@
 }
 
 .project-card {
-    min-height: 76vh;
+    min-height: 66vh;
     width: 44vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     padding: 3px;
     display: flex;
     flex-direction: column;
@@ -46,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .project-card {
         height: 65vh;
         width: 85vw;
