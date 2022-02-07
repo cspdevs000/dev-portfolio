@@ -16,7 +16,7 @@ class Projects extends Component {
                         <img src={neighborly} className='project-img'/>
                     </a>
                     <p className='project-description'>
-                        description......
+                        A  closed social media application designed entirely in Django. 
                     </p>
                 </div>
                 <div className='project-card'>
@@ -25,7 +25,7 @@ class Projects extends Component {
                         <img src={viral} className='project-img'/>
                     </a>
                     <p className='project-description'>
-                        description......
+                        A MERN application for getting COVID data by county. User can update vaccine card photo and set the county they live in for default information.
                     </p>
                 </div>
                 <div className='project-card'>
@@ -34,7 +34,7 @@ class Projects extends Component {
                         <img src={myparks} className='project-img'/>
                     </a>
                     <p className='project-description'>
-                        description......
+                        An EJS / express application for archiving user's national park visits and memories within.
                     </p>
                 </div>
                 <div className='project-card'>
@@ -43,7 +43,7 @@ class Projects extends Component {
                         <img src={g5towerascender} className='project-img'/>
                     </a>
                     <p className='project-description'>
-                        description......
+                        My first development project, a simple HTML browser game. Use a & d keys to move the character to either side of the tower.
                     </p>
                 </div>
             </div>
