@@ -45,3 +45,18 @@
         position: relative;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .project-card {
+        height: 65vh;
+        width: 85vw;
+        margin-top: 7vh;
+        padding: 3px;
+        position: relative;
+    }
+
+    .project-img-a {
+        height: 250px;
+        width: 300px;
+    }
+}
