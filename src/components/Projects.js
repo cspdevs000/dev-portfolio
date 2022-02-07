@@ -16,7 +16,7 @@ class Projects extends Component {
                         <img src={neighborly} className='project-img'/>
                     </a>
                     <p className='project-description'>
-                        A  closed social media application designed entirely in Django. 
+                        A closed social media application designed entirely in Django. If you'd like to test the search, search for the word 'test'.
                     </p>
                 </div>
                 <div className='project-card'>

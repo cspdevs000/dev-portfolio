@@ -1,12 +1,11 @@
 .navbar-container {
-    height: 4vw;
+    height: 3vh;
     padding: 15px;
     background-color: rgba(54, 197, 118, 0.384);
     box-shadow: 0 0.5em 1em -0.1125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 
 .navbar-link {
-    padding-top: 5px;
     padding-right: 5vw;
     margin: 0 auto;
     color: rgba(119, 36, 115, 0.582);
