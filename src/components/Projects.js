@@ -12,7 +12,7 @@ class Projects extends Component {
             <div className='projects-container'>
                 <div className='project-card'>
                     <h2 className='project-title'>Neighborly</h2>
-                    <a href='https://neighborly-application.herokuapp.com/' className='project-img-a'>
+                    <a href='https://neighborly-application.herokuapp.com/' target="_blank" className='project-img-a'>
                         <img src={neighborly} className='project-img'/>
                     </a>
                     <p className='project-description'>
@@ -21,7 +21,7 @@ class Projects extends Component {
                 </div>
                 <div className='project-card'>
                     <h2 className='project-title'>Viral</h2>
-                    <a href='https://viral-covid.herokuapp.com/' className='project-img-a'>
+                    <a href='https://viral-covid.herokuapp.com/' target="_blank" className='project-img-a'>
                         <img src={viral} className='project-img'/>
                     </a>
                     <p className='project-description'>
@@ -30,7 +30,7 @@ class Projects extends Component {
                 </div>
                 <div className='project-card'>
                     <h2 className='project-title'>myParks</h2>
-                    <a href='https://my-parks.herokuapp.com/' className='project-img-a'>
+                    <a href='https://my-parks.herokuapp.com/' target="_blank" className='project-img-a'>
                         <img src={myparks} className='project-img'/>
                     </a>
                     <p className='project-description'>
@@ -39,7 +39,7 @@ class Projects extends Component {
                 </div>
                 <div className='project-card'>
                     <h2 className='project-title'>G5 Tower Ascender</h2>
-                    <a href='https://cspdevs000.github.io/G5-tower-ascender/' className='project-img-a'>
+                    <a href='https://cspdevs000.github.io/G5-tower-ascender/' target="_blank" className='project-img-a'>
                         <img src={g5towerascender} className='project-img'/>
                     </a>
                     <p className='project-description'>
