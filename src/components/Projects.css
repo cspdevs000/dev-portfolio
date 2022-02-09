@@ -9,7 +9,7 @@
 }
 
 .project-card {
-    min-height: 50vh;
+    min-height: 56vh;
     width: 44vw;
     margin-top: 4vh;
     margin-bottom: 1vh;
@@ -29,6 +29,13 @@
 .project-img {
     width: 100%;
     height: 100%;
+}
+
+.collapsible {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) {

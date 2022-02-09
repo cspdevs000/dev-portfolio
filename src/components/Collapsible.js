@@ -11,7 +11,7 @@ return (
         <div className="header" {...getToggleProps()}>
             {isExpanded ? ' ' : 'Info'} {isExpanded ? <BiUpArrow /> : <BiDownArrow />}
         </div>
-        <div {...getCollapseProps()}>
+        <div className='content-container' {...getCollapseProps()}>
             <div className="collapsible-content">
             A closed social media application designed entirely in Django. If you'd like to test the search, search for the word 'test'. If you'd like to test user functionality with an already populated message board, sign in with username: testuser1, password: berenstein
             </div>
