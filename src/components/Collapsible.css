@@ -1,5 +1,5 @@
 .collapsible {
-    margin: 5px;
+    /* margin: 5px; */
     padding: 10px;
     max-width: 80%;
     min-height: 10%;
@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .content-container {
