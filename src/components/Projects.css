@@ -11,7 +11,7 @@
 .project-card {
     min-height: 66vh;
     width: 44vw;
-    margin-top: 2vh;
+    margin-top: 4vh;
     margin-bottom: 1vh;
     padding: 3px;
     display: flex;
@@ -36,27 +36,6 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.collapsible {
-    background-color: #eee;
-    color: #444;
-    padding: 18px;
-    width: 50%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-
-  .active, .collapsible:hover {
-    background-color: #ccc;
-  }
-
-  .collapsible-content {
-    padding: 0 18px;
-    display: none;
-    background-color: #f1f1f1;
-  }
 
 @media screen and (max-width: 900px) {
     .project-card {

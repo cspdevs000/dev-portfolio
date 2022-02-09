@@ -15,10 +15,9 @@ class Projects extends Component {
                     <a href='https://neighborly-application.herokuapp.com/' target="_blank" rel="noreferrer" className='project-img-a'>
                         <img src={neighborly} alt="project-1" className='project-img'/>
                     </a>
-                    {/* <p className='project-description'>
-                        A closed social media application designed entirely in Django. If you'd like to test the search, search for the word 'test'. If you'd like to test user functionality with an already populated message board, sign in with username: testuser1, password: berenstein
-                    </p> */}
-                <Collapsible />
+                <div className='collapsible'>
+                    <Collapsible />
+                </div>
                 </div>
                 <div className='project-card'>
                     <h2 className='project-title'>Viral</h2>
