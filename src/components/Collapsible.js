@@ -30,7 +30,7 @@ return (
         </div>
         <div {...getCollapseProps()}>
             <div className="collapsible-content">
-            A MERN application for getting COVID data by county. User can update vaccine card photo and set the county they live in for easy, automatic access to relevant information. Please forgive Heroku for the slow initial loading time of the landing page.            </div>
+            A MERN application for getting COVID data by county. User can update vaccine card photo and set the county they live in for easy, automatic access to relevant information. User can also search for vaccination sites by zipcode (search 11237 for seeded example sites), or add sites that they have been to for others to view & review. Please forgive Heroku for the slow initial loading time of the landing page.            </div>
         </div>
     </div>
     );
