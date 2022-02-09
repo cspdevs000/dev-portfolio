@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import Collapsible from './Collapsible';
 import neighborly from '../img/neighborly_screenshot.png'
 import viral from '../img/viral_screenshot.png'
 import myparks from '../img/myparks_screenshot.png'
 import g5towerascender from '../img/g5towerascender_screenshot.png'
 import './Projects.css';
-
 
 class Projects extends Component {
     render() {
@@ -15,9 +15,10 @@ class Projects extends Component {
                     <a href='https://neighborly-application.herokuapp.com/' target="_blank" rel="noreferrer" className='project-img-a'>
                         <img src={neighborly} alt="project-1" className='project-img'/>
                     </a>
-                    <p className='project-description'>
+                    {/* <p className='project-description'>
                         A closed social media application designed entirely in Django. If you'd like to test the search, search for the word 'test'. If you'd like to test user functionality with an already populated message board, sign in with username: testuser1, password: berenstein
-                    </p>
+                    </p> */}
+                <Collapsible />
                 </div>
                 <div className='project-card'>
                     <h2 className='project-title'>Viral</h2>
