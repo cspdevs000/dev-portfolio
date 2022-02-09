@@ -1,14 +1,15 @@
 import React from 'react';
 import useCollapse from 'react-collapsed';
+import { BiDownArrow, BiUpArrow } from "react-icons/bi";
 import './Collapsible.css';
 
-function Collapsible() {
+function CollapsibleOne() {
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
 
 return (
     <div className="collapsible">
         <div className="header" {...getToggleProps()}>
-            {isExpanded ? 'close' : 'description'}
+            {isExpanded ? ' ' : 'Info'} {isExpanded ? <BiUpArrow /> : <BiDownArrow />}
         </div>
         <div {...getCollapseProps()}>
             <div className="collapsible-content">
@@ -19,4 +20,54 @@ return (
     );
 }
 
-export default Collapsible
+function CollapsibleTwo() {
+    const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+
+return (
+    <div className="collapsible">
+        <div className="header" {...getToggleProps()}>
+            {isExpanded ? ' ' : 'Info'} {isExpanded ? <BiUpArrow /> : <BiDownArrow />}
+        </div>
+        <div {...getCollapseProps()}>
+            <div className="collapsible-content">
+            A MERN application for getting COVID data by county. User can update vaccine card photo and set the county they live in for easy, automatic access to relevant information. Please forgive Heroku for the slow initial loading time of the landing page.            </div>
+        </div>
+    </div>
+    );
+}
+
+function CollapsibleThree() {
+    const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+
+return (
+    <div className="collapsible">
+        <div className="header" {...getToggleProps()}>
+            {isExpanded ? ' ' : 'Info'} {isExpanded ? <BiUpArrow /> : <BiDownArrow />}
+        </div>
+        <div {...getCollapseProps()}>
+            <div className="collapsible-content">
+            An EJS / express application for archiving user's national park visits. User can keep a list of parks they've visited, view park info and add 'memory' posts.
+            </div>
+        </div>
+    </div>
+    );
+}
+
+function CollapsibleFour() {
+    const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+
+return (
+    <div className="collapsible">
+        <div className="header" {...getToggleProps()}>
+            {isExpanded ? ' ' : 'Info'} {isExpanded ? <BiUpArrow /> : <BiDownArrow />}
+        </div>
+        <div {...getCollapseProps()}>
+            <div className="collapsible-content">
+            My first development project, a cheeky and simple HTML browser game. Use a & d keys to move the character to either side of the tower.            </div>
+        </div>
+    </div>
+    );
+}
+
+
+export { CollapsibleOne, CollapsibleTwo, CollapsibleThree, CollapsibleFour }
