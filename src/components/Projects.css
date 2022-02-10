@@ -18,12 +18,13 @@
     flex-direction: column;
     position: relative;
     align-items: center;
+    background-color: rgba(190, 146, 187, 0.212);
     box-shadow: 0 0.5em 1em -0.1125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 
 .project-img-a {
-    height: 350px;
-    width: 420px;
+    height: 340px;
+    width: 410px;
 }
 
 .project-img {
@@ -51,7 +52,7 @@
 
 @media screen and (max-width: 650px) {
     .project-card {
-        min-height: 65vh;
+        min-height: 45vh;
         width: 85vw;
         margin-top: 7vh;
         padding: 3px;
