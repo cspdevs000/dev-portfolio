@@ -13,6 +13,9 @@ class Home extends Component {
                 <div className='bkgd-container-home'>
                     <img src={bkgdSpin} className="bkgd-img-home" alt="logo" />
                 </div>
+                <div className='projects-countainer'>
+                    <a className="projects-link" href="/projects" >Projects </a>
+                </div>
                 <div className='about-me-countainer'>
                     <a className="about-me-link" href="/about" >About Me </a>
                 </div>

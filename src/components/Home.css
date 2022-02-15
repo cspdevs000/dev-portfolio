@@ -23,6 +23,16 @@
   text-decoration: none;
 }
 
+
+.projects-link {
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
+  color: #352214b0;
+  font-size: 38px;
+  text-decoration: none;
+}
+
 .bkgd-img-home {
     height: 100%;
     width: 100%;
